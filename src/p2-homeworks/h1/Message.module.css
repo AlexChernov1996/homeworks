@@ -1,0 +1,42 @@
+.message {
+background: black;
+    max-width: 300px;
+    display: flex;
+    position: relative;
+}
+.left{
+    display: flex;
+    background: black;
+    align-items: end;
+}
+.message img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.content{
+    background: lightblue;
+    width: 200px;
+    position: relative;
+    border-radius: 5% 5% 5% 0;
+}
+.angle{
+    background: lightblue;
+    height: 50px;
+    width: 50px;
+}
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 0 0 50% 0;
+    background: black;
+}
+.content p{
+margin-top: 0;
+}
+.time{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
