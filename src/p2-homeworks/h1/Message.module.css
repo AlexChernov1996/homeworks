@@ -1,20 +1,19 @@
 .message {
-background: black;
+    padding:5px;
     max-width: 300px;
     display: flex;
     position: relative;
+    background: darkgrey;
 }
 .left{
     display: flex;
-    background: black;
     align-items: end;
 }
 .message img{
-    width: 40px;
-    height: 40px;
+    width: 45px;
+    height: 45px;
     border-radius: 50%;
 }
-
 .content{
     background: lightblue;
     width: 200px;
@@ -30,7 +29,8 @@ background: black;
     height: 50px;
     width: 50px;
     border-radius: 0 0 50% 0;
-    background: black;
+    background: darkgrey;
+
 }
 .content p{
 margin-top: 0;
