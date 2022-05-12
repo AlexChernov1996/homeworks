@@ -1,7 +1,29 @@
-.someClass {
-
+.normal button{
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
 }
-
-.error {
+.normal input{
+    width: 30%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid green;
+    font-size: large;
+}
+.normal input:focus{
+    outline: green;
+}
+.error button {
+    background-color: red;
+}
+.error input{
     border: 1px solid red;
+}
+.error input:focus{
+    outline: red;
 }
