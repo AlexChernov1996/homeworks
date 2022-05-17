@@ -1,7 +1,17 @@
 .default {
-
+    background-color: #04AA6D;
+    border: none;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    margin: 2px 2px;
+    cursor: pointer;
+    width: 100px;
 }
 
 .red {
     background: red;
+}
+button:disabled{
+    background-color: darkgrey;
 }

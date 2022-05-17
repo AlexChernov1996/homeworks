@@ -1,12 +1,21 @@
 .superInput {
-
+    width: 30%;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid green;
+    font-size: large;
 }
-
+.superInput:focus{
+    outline: #04AA6D;
+}
 .errorInput {
-    border: 3px solid lime;
-    background: red;
-}
+    border: 3px solid red;
 
+}
+.errorInput:focus{
+    outline: red;
+}
 .error {
     color: red;
 }
