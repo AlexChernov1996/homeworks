@@ -19,7 +19,7 @@ const style = {
 }
     return (
         <div style={style}>
-           <div>{props.affair.name}</div>
+           <div style={{width:"40px"}}>{props.affair.name}</div>
            <div>{props.affair.priority}</div>
             <SuperButton onClick={deleteCallback} style={{background:"red"}}>X</SuperButton>
         </div>

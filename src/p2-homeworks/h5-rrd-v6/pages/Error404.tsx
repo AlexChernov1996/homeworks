@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Error404() {
+export function Error404() {
+    const style = {
+        height:"100vh",
+        backgroundImage:"url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTsUweOCBzzwzI56nRitCqfU-NNnKmPfV5YrQ&usqp=CAU)"
+    }
     return (
-        <div>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+        <div style={style}>
+
         </div>
     )
 }
 
-export default Error404
